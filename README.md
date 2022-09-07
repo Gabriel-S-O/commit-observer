@@ -1,4 +1,4 @@
-# <center>What does this project do ?</center>
+# <center>What does this project do?</center>
 
 It will check (in a list made by you!) wheter each user did <b> Commit to Github</b> today or not!
 
@@ -20,9 +20,9 @@ This is what it looks like in Discord:
 ✅ [@Ruanzin Riven]() **DID COMMIT**    ✅
 
 
-## <center>But.. what is the purpose of this project ??</center>
+## <center>What is the reasoning behind the project?</center>
 
-I've made this to automate a bet made with my friends in an effort to increase our productivity, and now you can do the same with your friends (or by yourself)!
+This project was made as a means to automate a bet made with my friends in an effort to increase our productivity, and now you can do the same with your friends (or by yourself)!
 
-This project is designed to help you form a coding habit, and is best used with some form of additional drawback for not commiting (ex: x numbers of pushups).
+This project is designed to help you form a coding habit, and thus is best used with some form of additional drawback for not commiting (ex: x numbers of pushups).
 > as per the fourth principle of breaking bad habits (make it unsatisfying), described in James Clear's Atomic Habits
