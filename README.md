@@ -20,7 +20,7 @@ This is what it looks like in Discord:
 ✅ [@Ruanzin Riven]() **DID COMMIT**    ✅
 
 
-## <center>What is the reasoning behind the project?</center>
+## <center>Why does this project exist?</center>
 
 This project was made as a means to automate a bet made with my friends in an effort to increase our productivity, and now you can do the same with your friends (or by yourself)!
 
