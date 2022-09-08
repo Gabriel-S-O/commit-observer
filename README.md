@@ -2,9 +2,9 @@
 
 It will check (in a list made by you!) wheter each user did <b> Commit to Github</b> today or not!
 
-Then, it will print a message formatted to Discord Bots/Webhooks with each person in the list, informing wheter they did or not commit today
+Then, it shall print a message formatted to Discord Bots/Webhooks tagging each person in the list, informing wheter they did or not commit today
 
-> I'm currently using [Pipedream](https://pipedream.com) to trigger this code everyday and send the message to my Discord server using a webhook
+>Currently using [Pipedream](https://pipedream.com) to trigger this code everyday and send the message to a Discord server using a webhook
 
 The output message should be something like this:
 
