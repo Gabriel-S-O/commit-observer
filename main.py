@@ -1,9 +1,8 @@
-from operator import truediv
-from time import time, timezone
 import requests
 import json
-import datetime
-
+from  datetime import date, datetime, timedelta
+import pytz
+ 
 DISCORD_EMOJI_WRONG = ":no_entry_sign:"
 DISCORD_EMOJI_RIGHT = ":white_check_mark:"
 
@@ -11,15 +10,20 @@ FIRST_HOUR_CHAR_INDEX = 11
 LAST_HOUR_CHAR_INDEX = -7
 LAST_DATE_CHAR_INDEX = 10
 
-today = datetime.date.today()
-timezoneDiff = -3
+TIMEZONE = 'America/Sao_Paulo'
+datetime.utcnow().replace(tzinfo=pytz.timezone(TIMEZONE))
 
+today = date.today()
+timezoneDiff = -3
 
 # put here your friends github usernames and their discord id's
 
 targetsInfo = [
-  {"username": "Gakjvc", "discordId": "173421126901432320"}
-]
+  {"username": "Gabriel-S-O", "discordId": "173421126901432320"},
+  {"username": "Gakjvc", "discordId": "291344422975832064"},
+  {"username": "GUGALU", "discordId": "537656953137004555"},
+  {"username": "Ruan-F-M", "discordId": "961780118479573032"}
+  ]
 
 usersAsObject = []
 
@@ -49,9 +53,9 @@ def save_users_activities():
 
 def correct_for_timezone(hour):
   if hour + timezoneDiff < 0 :
-    return today - datetime.timedelta(days=1)
+    return today + timedelta(days=1)
   elif hour + timezoneDiff > 24:
-    return today + datetime.timedelta(days=1)  
+    return today - timedelta(days=1)  
   else:
     return today
 
