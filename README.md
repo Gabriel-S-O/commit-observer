@@ -1,8 +1,8 @@
 # <center>What does this project do?</center>
 
-It will check (in a list made by you!) wheter each user did <b> Commit to Github</b> today or not!
+It will check (in a list made by you!) if each user did <b> Commit to Github</b> today or not!
 
-Then, it shall print a message formatted to Discord Bots/Webhooks tagging each person in the list, informing if they did or didn't commit today
+Then, it shall print a message formatted to Discord Bots/Webhooks tagging each person in the list, informing whether they did or didn't commit today.
 
 >Currently using [Pipedream](https://pipedream.com) to trigger this code everyday and send the message to a Discord server using a webhook
 
